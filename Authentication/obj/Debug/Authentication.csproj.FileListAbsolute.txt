@@ -1,0 +1,6 @@
+C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\bin\Debug\Authentication.dll
+C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\bin\Debug\Authentication.pdb
+C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\obj\Debug\Authentication.csprojAssemblyReference.cache
+C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\obj\Debug\Authentication.csproj.CoreCompileInputs.cache
+C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\obj\Debug\Authentication.dll
+C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\obj\Debug\Authentication.pdb

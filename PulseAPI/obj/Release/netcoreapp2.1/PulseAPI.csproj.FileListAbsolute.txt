@@ -1,0 +1,17 @@
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\PulseAPI.deps.json
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\PulseAPI.runtimeconfig.json
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\PulseAPI.runtimeconfig.dev.json
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\PulseAPI.dll
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\PulseAPI.pdb
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.csproj.CoreCompileInputs.cache
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.RazorAssemblyInfo.cache
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.RazorAssemblyInfo.cs
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.AssemblyInfoInputs.cache
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.AssemblyInfo.cs
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.RazorTargetAssemblyInfo.cache
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.dll
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.pdb
+c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.csprojAssemblyReference.cache
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\Authentication.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\Authentication.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.csproj.CopyComplete

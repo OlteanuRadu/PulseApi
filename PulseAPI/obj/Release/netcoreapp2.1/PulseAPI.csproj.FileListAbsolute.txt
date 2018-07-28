@@ -15,3 +15,4 @@ c:\users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\P
 C:\Users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\Authentication.dll
 C:\Users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\Authentication.pdb
 C:\Users\radu.olteanu\source\repos\PulseAPI\PulseAPI\obj\Release\netcoreapp2.1\PulseAPI.csproj.CopyComplete
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseAPI\bin\Release\netcoreapp2.1\ClientApp\bigstock-Two-business-people-discussing-65366809.jpg

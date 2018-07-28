@@ -38,10 +38,8 @@ namespace Exchange101
             return result;
         }
 
-        public static ExchangeService ConnectToService(IUserData userData)
-        {
-            return ConnectToService(userData, null);
-        }
+        public static ExchangeService ConnectToService(IUserData userData) => 
+            ConnectToService(userData, null);
 
         public static ExchangeService ConnectToService(IUserData userData, ITraceListener listener)
         {
@@ -63,7 +61,8 @@ namespace Exchange101
                 service.AutodiscoverUrl(userData.EmailAddress, RedirectionUrlValidationCallback);
                 userData.AutodiscoverUrl = service.Url;
 
-                Console.WriteLine("Autodiscover Complete");
+                Console.WriteLine();
+                Console.WriteLine("Autodiscover Complete ... Connected to: Microsoft Exchange");
             }
             else
             {
@@ -75,10 +74,7 @@ namespace Exchange101
 
         public static ExchangeService ConnectToServiceWithImpersonation(
           IUserData userData,
-          string impersonatedUserSMTPAddress)
-        {
-            return ConnectToServiceWithImpersonation(userData, impersonatedUserSMTPAddress, null);
-        }
+          string impersonatedUserSMTPAddress) => ConnectToServiceWithImpersonation(userData, impersonatedUserSMTPAddress, null);
 
         public static ExchangeService ConnectToServiceWithImpersonation(
           IUserData userData,

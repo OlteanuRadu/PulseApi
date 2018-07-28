@@ -4,3 +4,9 @@ C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Sen
 C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\obj\Release\Authentication.csproj.CoreCompileInputs.cache
 C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\obj\Release\Authentication.dll
 C:\Users\radu.olteanu\Downloads\Exchange 2013 101 Code Samples\Exchange 2013 Send SMS messages over an Exchange server and an SMS gateway\C#\Authentication\obj\Release\Authentication.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\Authentication\bin\Release\Authentication.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\Authentication\bin\Release\Authentication.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\Authentication\obj\Release\Authentication.csproj.CoreCompileInputs.cache
+C:\Users\radu.olteanu\source\repos\PulseAPI\Authentication\obj\Release\Authentication.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\Authentication\obj\Release\Authentication.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\Authentication\obj\Release\Authentication.csprojAssemblyReference.cache

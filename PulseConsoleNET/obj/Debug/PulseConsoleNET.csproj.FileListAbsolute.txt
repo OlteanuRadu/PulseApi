@@ -1,0 +1,17 @@
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\PulseConsoleNET.exe.config
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\PulseConsoleNET.exe
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\PulseConsoleNET.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Authentication.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Microsoft.IdentityModel.Extensions.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Authentication.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Microsoft.Exchange.WebServices.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Microsoft.Exchange.WebServices.Auth.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\bin\Debug\Microsoft.Exchange.WebServices.Auth.xml
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\obj\Debug\PulseConsoleNET.csprojAssemblyReference.cache
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\obj\Debug\PulseConsoleNET.csproj.CoreCompileInputs.cache
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\obj\Debug\PulseConsoleNET.csproj.CopyComplete
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\obj\Debug\PulseConsoleNET.exe
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsoleNET\obj\Debug\PulseConsoleNET.pdb

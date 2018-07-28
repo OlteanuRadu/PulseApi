@@ -1,0 +1,23 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+  .mat-form-field {
+    display: flow-root !important;
+    position: relative;
+    text-align: left;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}

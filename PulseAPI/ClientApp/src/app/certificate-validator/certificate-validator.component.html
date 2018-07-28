@@ -1,0 +1,48 @@
+<mat-card class="mat-card-style1">
+  <mat-card-title>Validate Certificate By Certificate Identifier</mat-card-title>
+  <mat-card-header *ngIf="selectedCertificate !=null && selectedCertificate.id !=null">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Certificate Identifier</mat-card-title>
+      <mat-card-subtitle> {{selectedCertificate == null ? "" : selectedCertificate.id}}</mat-card-subtitle>
+    </mat-card-header>
+  <mat-card-content>
+    <mat-form-field class="example-full-width">
+      <input [(ngModel)]="selectedCertificate" type="text" placeholder="Certificate Identifier" aria-label="Number" matInput [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayCertificate">
+        <mat-option *ngFor="let certificate of certificates" [value]="certificate">
+          {{certificate.id}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    </mat-card-content>
+    <mat-card-actions align="center">
+      <button mat-raised-button color="primary" (click)="validateCertificatebyId()">
+        Validate
+ </button>
+ <mat-spinner *ngIf="isBusy" [diameter]="40"></mat-spinner>
+    </mat-card-actions>
+</mat-card>
+  <mat-card class="mat-card-style">
+    <mat-card-title>Validate Certificate By Vessel Name</mat-card-title>
+    <mat-card-header *ngIf="selectedShip !=null && selectedShip.id !=null">
+        <div mat-card-avatar class="example-header-image1"></div>
+        <mat-card-title>Vessel Name</mat-card-title>
+        <mat-card-subtitle> {{selectedShip == null ? "" : selectedShip.shipName}}</mat-card-subtitle>
+      </mat-card-header>
+    <mat-card-content>
+      <mat-form-field class="example-full-width">
+        <input [(ngModel)]="selectedShip" type="text" placeholder="Vessel Name" aria-label="Number" matInput [matAutocomplete]="auto1">
+        <mat-autocomplete #auto1="matAutocomplete" [displayWith]="displayShipName">
+          <mat-option *ngFor="let ship of ships" [value]="ship">
+            {{ship.shipName}}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions align="center" >
+        <button mat-raised-button color="primary" align="center" (click)="validateCertificatebyVesselId()">
+          Validate
+   </button>
+   <mat-spinner *ngIf="isBusy1" [diameter]="40"></mat-spinner>
+      </mat-card-actions>
+    </mat-card>

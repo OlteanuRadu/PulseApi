@@ -1,0 +1,44 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+  .mat-form-field {
+    display: flow-root !important;
+    position: relative;
+    text-align: left;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.mat-card-style{
+    margin-top: 100px;
+}
+
+.mat-card-style1{
+    margin-top: 50px;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://png.icons8.com/material/1600/certificate.png');
+  background-size: cover;
+}
+
+.example-header-image1 {
+  background-image: url('https://png.pngtree.com/element_origin_min_pic/16/08/22/0957ba560723855.jpg');
+  background-size: cover;
+}

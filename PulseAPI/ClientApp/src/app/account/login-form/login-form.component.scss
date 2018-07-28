@@ -1,0 +1,50 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    left: 35%;
+    text-align: center;
+    position: absolute;
+}
+  
+  .example-full-width {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title-style{
+     text-align: center;
+     margin-top: 230px;
+     margin-right: 50px;
+  }
+
+.no-hover-effect.mat-button.mat-primary .mat-button-focus-overlay,
+.no-hover-effect.mat-button.mat-accent .mat-button-focus-overlay,
+.no-hover-effect.mat-button.mat-warn .mat-button-focus-overlay
+{
+  background-color: transparent;
+}
+
+.fill-space {
+  // This fills the remaining space, by using flexbox.
+  // Every toolbar row uses a flexbox row layout.
+  flex: 1 1 auto;
+}
+
+.container {
+  background: #000 url('../../../../bigstock-two-business-people-discussing-65366809.jpg'); color: #fff;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background:black;
+  opacity: .6;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+}

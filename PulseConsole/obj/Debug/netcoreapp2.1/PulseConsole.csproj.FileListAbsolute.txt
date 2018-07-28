@@ -1,0 +1,14 @@
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\bin\Debug\netcoreapp2.1\PulseConsole.deps.json
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\bin\Debug\netcoreapp2.1\PulseConsole.runtimeconfig.json
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\bin\Debug\netcoreapp2.1\PulseConsole.runtimeconfig.dev.json
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\bin\Debug\netcoreapp2.1\PulseConsole.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\bin\Debug\netcoreapp2.1\PulseConsole.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\bin\Debug\netcoreapp2.1\Authentication.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\bin\Debug\netcoreapp2.1\Authentication.pdb
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\obj\Debug\netcoreapp2.1\PulseConsole.csprojAssemblyReference.cache
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\obj\Debug\netcoreapp2.1\PulseConsole.csproj.CoreCompileInputs.cache
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\obj\Debug\netcoreapp2.1\PulseConsole.AssemblyInfoInputs.cache
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\obj\Debug\netcoreapp2.1\PulseConsole.AssemblyInfo.cs
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\obj\Debug\netcoreapp2.1\PulseConsole.csproj.CopyComplete
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\obj\Debug\netcoreapp2.1\PulseConsole.dll
+C:\Users\radu.olteanu\source\repos\PulseAPI\PulseConsole\obj\Debug\netcoreapp2.1\PulseConsole.pdb

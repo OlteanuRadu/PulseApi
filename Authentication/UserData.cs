@@ -8,7 +8,7 @@ namespace Exchange101
   {
     ExchangeVersion Version { get; }
     string EmailAddress { get; }
-    SecureString Password { get; }
+    string Password { get; }
     Uri AutodiscoverUrl { get; set; }
   }
 
@@ -88,5 +88,7 @@ namespace Exchange101
         get;
         set;
     }
-  }
+
+        string IUserData.Password => throw new NotImplementedException();
+    }
 }

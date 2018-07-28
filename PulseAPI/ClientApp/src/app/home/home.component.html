@@ -1,0 +1,70 @@
+<main role="main">
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <mat-toolbar style="box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);position: fixed;z-index: 1;">
+        Microsoft Exchange Services
+
+        <h2 class="icon">
+                <button mat-raised-button color="warn" (click)="subscribe()">Subscribe</button>
+                <button mat-fab mat-fab color="" class="no-hover-effect">
+                        <mat-icon style="color:gray">notifications</mat-icon>
+                        <b matBadge="10" matBadgeColor="warn"></b>
+                    </button>
+                            
+                <a mat-icon-button class="small" [matMenuTriggerFor]="matmenu" (click)="userClick()">
+                  <mat-icon>account_circle</mat-icon>
+                  <div style="color: black">{{usercontext}}</div>
+                </a>
+
+                <mat-menu #matmenu="matMenu" style="margin-top: 30px">
+                    <button mat-menu-item >
+                        <mat-icon>flag</mat-icon>
+                        <span>
+                            View User Profile
+                        </span>
+                    </button>
+                    <button mat-menu-item >
+                        <mat-icon>flag</mat-icon>
+                        <span>
+                            Setings
+                        </span>
+                    </button>
+                    <button mat-menu-item (click)="logout()">
+                        <mat-icon>flag</mat-icon>
+                        <span>
+                            Logout
+                        </span>
+                    </button>
+                </mat-menu>
+            </h2>
+
+  </mat-toolbar>
+  <div class="jumbotron">
+    <div class="container">
+      
+      <h1 class="display-3"></h1>
+      <div class="is-grouped">
+          <!-- <button style="margin-right: 10px" mat-raised-button color="primary" (click)="createCertificate()">Create Certificate</button> -->
+          <button style="margin-right: 10px" mat-raised-button color="primary" (click)="startGenesis()">Send Email</button>
+          <!-- <button style="margin-right: 10px" mat-raised-button (click)="navigateToAllTransactions()">View Ledger Transactions
+              <span style="margin-right: 10px" style="margin-bottom: 5px" class="badge">200</span></button>
+        <button style="margin-right: 10px" mat-raised-button (click)="navigateToAllCertificates()">View All Certificates
+            <span style="margin-right: 10px" style="margin-bottom: 5px" class="badge">{{totalCertificates}}</span></button>
+        <button style="margin-right: 10px" mat-raised-button (click)="navigateToMyCertificates()">View My Certificates
+            <span style="margin-right: 10px" style="margin-bottom: 5px" class="badge">1</span>
+        </button>
+        <button style="margin-right: 10px" mat-raised-button (click)="validateCertificate()">Validate Certificate</button> -->
+        
+        <!--<a class="btn btn-primary btn-lg" href="#" role="button">Store Certificate</a>
+        <input type="file" />-->
+        </div>
+    </div>
+    <div>
+      <ul>
+        <li *ngFor="let item of certificates">
+          {{item.customerIdentifier}}
+          {{item.blockType}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>

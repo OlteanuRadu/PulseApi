@@ -1,0 +1,46 @@
+
+<mat-drawer-container class="example-container"  autosize>
+    <mat-drawer #drawer class="custom-sidenav" mode="side" (opened)="onOpen()">
+        <div>
+      <button routerLink="/" routerLinkActive="active"
+       style="margin-top: 50px" mat-button class="small" (click)="showFiller = !showFiller" >
+        <mat-icon style="color: red">home</mat-icon>
+      <b style="margin-left: 20px">Home</b>
+      </button>
+    </div>
+     <div>
+      <button routerLink="/users" routerLinkActive="active" style="margin-top: 20px" mat-button class="small" (click)="showFiller = !showFiller" >
+        <mat-icon style="color:gray">perm_identity</mat-icon>
+        <b style="margin-left: 10px">Users</b>
+      </button>
+    </div> 
+      <!-- <div *ngIf="isAdmin">
+            <button routerLink="/fetch-data" routerLinkActive="active" style="margin-top: 20px" mat-button class="small" (click)="showFiller = !showFiller" >
+                <mat-icon  matBadge="{{totalCertificates}}" matBadgePosition="before" matBadgeColor="accent"  style="color:gray;">description</mat-icon>
+              <b style="margin-left: 20px">Certificates</b>
+              </button>
+      </div>
+      <div>
+            <button (click)="navigateToMyCertificates()"  routerLinkActive="active" style="margin-top: 20px" mat-button class="small" (click)="showFiller = !showFiller" >
+                <mat-icon  matBadge="{{myCertificates}}" matBadgePosition="before" matBadgeColor="accent"  style="color:gray">description</mat-icon>
+              <b style="margin-left: 20px">My Certificates</b>
+              </button>
+      </div>
+      <div>
+            <button routerLink="/certificate-validator" routerLinkActive="active" style="margin-top: 20px" mat-button class="small" (click)="showFiller = !showFiller" >
+                <mat-icon  style="color:black">check</mat-icon>
+              <b style="margin-left: 20px">Validate Certificate</b>
+              </button>
+      </div> -->
+    </mat-drawer>
+  
+    <div class="example-sidenav-content">
+            <h2>
+                    <a mat-icon-button (click)="drawer.toggle()">
+                            <mat-icon style="color: gray">menu</mat-icon>
+                        </a>
+            </h2>
+      <router-outlet></router-outlet>
+    </div>
+  </mat-drawer-container> 
+   

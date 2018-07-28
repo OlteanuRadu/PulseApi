@@ -1,0 +1,47 @@
+@media (max-width: 767px) {
+  /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+  .body-content {
+    padding-top: 50px;
+  }
+}
+
+.example-container {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+$icon-small-container-size: 25px;
+$icon-small-size:25px;
+
+.mat-icon-button.small {
+width: $icon-small-container-size;
+height: $icon-small-container-size;
+color: red;
+line-height: $icon-small-container-size;
+
+.mat-icon, .mat-icon-button i {
+  line-height: $icon-small-size;
+}
+
+.mat-icon {
+  width: $icon-small-size;
+  height: $icon-small-size;
+}
+
+.material-icons {
+  font-size: $icon-small-size;
+}
+}
+
+
+.example-sidenav-content {
+  display: flex;
+  height: 1400px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.example-sidenav {
+  padding: 20px;
+  height: 100%;
+}
+
